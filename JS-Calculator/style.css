@@ -1,0 +1,122 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+    background-color: white;
+
+}
+
+.container {
+    margin-left: 1.8em;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+}
+
+.row button {
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 10px;
+    transition: .1s;
+    box-shadow: inset 5px 5px 8px rgba(16, 16, 16, 0.1), inset -5px -5px 8px #fff;
+    background: #fff;
+}
+
+.row button:hover {
+    box-shadow: inset 5px 5px 8px #e60073, inset -5px -5px 8px #ff3399;
+    background: #ff3399;
+    color: #fff;
+}
+
+#screen {
+    margin-bottom: .5em;
+    width: 97%;
+    height: 80px;
+    font-size: 35px;
+    outline: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #ecf0f3;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+
+.reset.del:hover {
+    box-shadow: inset 5px 5px 8px #d1153e, inset -5px -5px 8px #d1153e;
+    background: #d1153e;
+    color: #fff;
+}
+
+.reset.clear:hover {
+    box-shadow: inset 5px 5px 8px #2eb82e, inset -5px -5px 8px #33cc33;
+    background: #33cc33;
+    color: #fff;
+}
+
+.reset:hover {
+    box-shadow: inset 5px 5px 8px #e60073, inset -5px -5px 8px #ff3399;
+    background: #ff3399;
+    color: #000000;
+}
+
+.resetequal {
+    background: #33ccff;
+    color: #fff;
+    box-shadow: inset 5px 5px 8px #66d9ff, inset -5px -5px 8px #00ace6;
+}
+
+.resetequal:hover {
+    box-shadow: inset 5px 5px 8px #00ace6, inset -5px -5px 8px #00ace6;
+}
+
+.reset del {
+    background: #33cc33;
+    color: #fff;
+}
+
+.reset del {
+    box-shadow: inset 5px 5px 8px #2eb82e, inset -5px -5px 8px #33cc33;
+}
+
+.reset {
+    background: #ff3399;
+    color: #181717;
+}
+
+.reset:hover {
+    box-shadow: inset 5px 5px 8px #e60073, inset -5px -5px 8px #ff3399;
+}
+
+.calculation {
+
+    background-color: rgba(83, 0, 60, 0.945);
+}
+
+/*================= Heading Css =================*/
+h2 {
+    font-size: 45px;
+    position: relative;
+    text-align: center;
+    bottom: 1em;
+    font-family: sans-serif;
+    color:black;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #d1d9e6,
+        1px 1px 2px #d1d9e6,
+        3px 3px 3px #d1d9e6,
+        4px 4px 4px #d1d9e6,
+        5px 5px 5px #d1d9e6,
+        6px 6px 6px #d1d9e6,
+        7px 7px 7px #d1d9e6,
+        8px 8px 8px #d1d9e6;
+    letter-spacing: 6px;
+}
